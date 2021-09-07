@@ -3,7 +3,7 @@ import datetime
 #삼성전자
 code = '005930'
 url = 'http://finance.naver.com/item/sise_day.nhn?code={code}'.format(code=code)
-# headers 코드 없을 시에 페이지를 찾을 수 없는 block이 걸림
+# headers 코드 없을 시에 페이지를 찾을 수 없는 block이 걸림.
 res = requests.get(url,headers={'User-agent':'Mozilla/5.0'})
 res.encoding = 'utf-8'
 
