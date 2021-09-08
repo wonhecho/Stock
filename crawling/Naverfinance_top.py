@@ -63,7 +63,7 @@ for page in range(1,3):
     result += list
     
 time_table = pd.DataFrame(result)
-
+# os import
 import os
 import datetime
 path_dir = 'data\\totalmarket'
